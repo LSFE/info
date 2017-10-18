@@ -12,10 +12,12 @@ lsfeData(path)
 <p align="justify">
 This folder structure consists of:
 
-* <b>00_DATA</b> - Base and/or processed satellite data stored by tiles (see <a href="">storeLandsat</a> and <a href="">storeMODIS</a>).
+* <b>00_DATA</b> - Base and/or processed satellite data stored by tiles (see e.g <a href="">storeLandsat</a>).
 * <b>01_RESULTS</b> - Processed satellite data (e.g. subsets for test site) and/or scientific analysis outputs.
 * <b>02_DOCUMENTS</b> - General documentation.
 * <b>03_CODE</b> - Scripts (R or other).
 * <b>04_SANDBOX</b> - Folder dedicated to data testing which is independent from the remaining data structure.
 
 </p>
+
+Click <a href="https://github.com/LSFE/LSFE-R">here</a> to return to <i>LSFE</i> main page.
