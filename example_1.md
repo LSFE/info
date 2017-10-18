@@ -4,10 +4,14 @@
 In order to facilitate the exchange of tools for data processing and analysis we developed <i>lsfeData()</i>. Provided a target directory, this fuction will create a standardized folder structure.
 </p>
 
+</b>
+
 ```R
 path = "Your Directory"
 lsfeData(path)
 ```
+
+</b>
 
 <p align="justify">
 This folder structure consists of:
@@ -19,5 +23,7 @@ This folder structure consists of:
 * <b>04_SANDBOX</b> - Folder dedicated to data testing which is independent from the remaining data structure.
 
 </p>
+
+</b>
 
 Click <a href="https://github.com/LSFE/LSFE-R">here</a> to return to <i>LSFE</i> main page.
