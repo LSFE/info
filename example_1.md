@@ -1,4 +1,4 @@
-#### A uniform workspace
+### A uniform workspace
 
 <p align="justify">
 In order to facilitate the exchange of tools for data processing and analysis we developed <i>lsfeData()</i>. Provided a target directory, this fuction will create a standardized folder structure.
