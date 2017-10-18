@@ -12,7 +12,7 @@ lsfeData(path)
 <p align="justify">
 This folder structure consists of:
 
-* <b>00_DATA</b> - Base and/or processed satellite data stored by tiles (see xxxx).
+* <b>00_DATA</b> - Base and/or processed satellite data stored by tiles (see <a href="">storeLandsat</a> and <a href="">storeMODIS</a>).
 * <b>01_RESULTS</b> - Processed satellite data (e.g. subsets for test site) and/or scientific analysis outputs.
 * <b>02_DOCUMENTS</b> - General documentation.
 * <b>03_CODE</b> - Scripts (R or other).
