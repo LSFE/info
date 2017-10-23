@@ -14,7 +14,7 @@ Using <i>storeLandsat()</i> the storage of Landsat data is made a lot easier. Th
 
 </p>
 
-<a href="https://github.com/LSFE/info/blob/master/example-3_figure-1.png"><img width="300" height="100" src="http://www.julius-echter-gymnasium.de/cms/images/content/jeg/logos/logo_uni_wue.jpg"></a>
+<img width="300" height="100" src="https://github.com/LSFE/info/blob/master/example-3_figure-1.png"></a>
 
 
 #### MODIS
