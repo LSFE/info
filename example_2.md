@@ -37,9 +37,7 @@ tile.shp <- shapefile(file)
 # perform query
 satQuery(ext=study.shp, shp=tile.shp, tile="tile")
 ```
- 
-The full example code can be downloaded <a href="">here</a>.
-  
+
 </b>
 
 Click <a href="https://github.com/LSFE/LSFE-R">here</a> to return to <i>LSFE</i> main page.
