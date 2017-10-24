@@ -9,12 +9,13 @@ To avoid this, we developed a series of tools to create a standized structure fo
 <p align="justify">
 The data for every satellite sensor stored through <i>LSFE</i> will have a comparable structure. As describe in the disgram below, the storage functions will create a folder for the sensor within which two folders will be created:
   
-* sr - Folder where the surface reflectance data will be stored.
+* SR - Folder where the surface reflectance data will be stored.
 * infos - Folder where per-tile metadata for the downloaded acquisitions will be stored.
 
+Then, inside <i>SR</i>, the function will create a folder for each tile and store the corresponding acquisitions within it.
 </p>
 
-<b>
+</b>
 
 <p align="center">
 <img width="709" height="371" src="https://github.com/LSFE/info/blob/master/example-3_figure-1.jpg"></a>
@@ -24,13 +25,10 @@ The data for every satellite sensor stored through <i>LSFE</i> will have a compa
 <sub>Figure 1 - Example data storage diagram for Landsat.</sub>
 </p>
 
-<b>
+</b>
 
 <p align="justify">
-Then, for each acquisition, the function will create a new folder and store where the final data will be 
-
-#### MODIS
-<p align="justify">
+ At the moment, <i>LSFE</i> offers the functions <i>storeLandsat()</i> and <i>store13Q1()</i> which help in the storage of  Landsat and MODIS 13Q1 data, respectively.
 </p>
 
 </b>
