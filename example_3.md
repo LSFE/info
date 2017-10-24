@@ -36,14 +36,13 @@ Then, inside <i>SR</i>, the function will create a folder for each tile and stor
 <br>
 
 ```R
-storeLandsat("zip path", "out path", remove.files=TRUE)
-store13q1("hdf path", "out path", remove.files=TRUE)
+storeSat("zip path", "out path", remove.files=TRUE)
 ```
 
 <br>
 
 <p align="justify">
-
+  In the case of <i>storeLandsat()</i> and <i>store()</i> part from generic data sorting and storage, these functions will also interpret the quality information provided through these products and provide a mask. In the case of MODIS
 </p>
 
 <br>
