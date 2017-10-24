@@ -31,10 +31,14 @@ Then, inside <i>SR</i>, the function will create a folder for each tile and stor
  At the moment, <i>LSFE</i> offers the functions <i>storeLandsat()</i> and <i>store13q1()</i> which help in the storage of  Landsat and MODIS 13Q1 data, respectively. As shown in the examples below, these functions only require that the user specifies the input path (where the downloaded data is stored) and the output folder (where the data will be sorted). Additionally, the user can choose to remove the original files after competion setting the keyword <i>remove.files</i> to TRUE.
 </p>
 
+</b>
+
 ```R
 storeLandsat("zip path", "out path", remove.files=TRUE)
 store13q1("hdf path", "out path", remove.files=TRUE)
 ```
+
+</b>
 
 <p align="justify">
 
