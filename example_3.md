@@ -17,9 +17,10 @@ The data for every satellite sensor stored through <i>LSFE</i> will have a compa
 <b>
 
 <p align="center">
-  
 <img width="709" height="371" src="https://github.com/LSFE/info/blob/master/example-3_figure-1.jpg"></a>
+</p>
 
+<p align="center">
 <sub>Figure 1 - Example data storage diagram for Landsat.</sub>
 </p>
 
