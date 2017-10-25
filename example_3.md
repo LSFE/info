@@ -45,7 +45,7 @@ storeSat("path where hdf files are stored", "your output path", sensor="landsat"
 <br>
 
 <p align="center">
-<img width="800" height="471" src="https://github.com/LSFE/info/blob/master/example-3_figure-2.png"></a>
+<img width="800" height="320" src="https://github.com/LSFE/info/blob/master/example-3_figure-2.png"></a>
 </p>
 
 <p align="center">
