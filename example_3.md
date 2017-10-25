@@ -1,15 +1,14 @@
 ### Standardized storage of satellite data
 
 <p align="justify">
-One of the main issues in sharing data and tools between researchers has to do with the way we store and use data. Often, each researcher has its data structure which makes it hard to apply re-apply a tool. As a consequence, adapting the work of someone else might be a bigger effort than writting our own functions leading to an unnecessary replication of work.
-To avoid this, we developed a series of tools to create a standized structure for satellite data and its corresponding metadata. Ideally, this function can be used in combination with <i>lsfeData()</i> (see <a href="https://github.com/LSFE/info/blob/master/example_3.md">here</a>).
+One of the main issues in sharing data and tools between researchers has to do with the way we store and use data. Often, each researcher has its own data structure which makes it hard to apply a tool from another. As a consequence, adapting the work of someone else might be a bigger effort than writting a new function leading to an unnecessary replication of work. To avoid this, we developed <i>storeSat()</i> which creates a standized structure for satellite data and its corresponding metadata.
 </p>
 
 <br>
 
 #### Data structure
 <p align="justify">
-The data for every satellite sensor stored through <i>LSFE</i> will have a comparable structure. As describe in the disgram below, the storage functions will create a folder for the sensor within which two folders will be created:
+The data for every satellite sensor stored through <i>LSFE</i> will have a comparable structure (Figure 1). As describe in the disgram below, the storage functions will create a folder for the sensor within which two folders will be created:
   
 * SR - Folder where the surface reflectance data will be stored.
 * infos - Folder where per-tile metadata for the downloaded acquisitions will be stored.
@@ -30,8 +29,26 @@ Then, inside <i>SR</i>, the function will create a folder for each tile and stor
 <br>
 
 <p align="justify">
- At the moment, <i>LSFE</i> offers the functions <i>storeLandsat()</i> and <i>store13q1()</i> which help in the storage of  Landsat and MODIS 13Q1 data, respectively. As shown in the examples below, these functions only require that the user specifies the input path (where the downloaded data is stored) and the output folder (where the data will be sorted). Additionally, the user can choose to remove the original files after competion setting the keyword <i>remove.files</i> to TRUE.
+ At the moment, <i>storeSat()</i> allows for the storage of Landsat MODIS data (13Q1 and 09A1). The function requires the user to specify the an input path (where the downloaded data is stored) and the output path (where the data will be sorted). Then, the user needs to specify the target sensor. Additionally, the user can choose to remove the original files after competion setting the keyword <i>remove.files</i> to TRUE.
 </p>
+ 
+<br>
+ 
+```R
+# storage of landsat data
+storeSat("path where tar.gz files are stored", "your output path", sensor="landsat", remove.files=TRUE)
+
+# storage of modis data
+storeSat("path where hdf files are stored", "your output path", sensor="landsat", remove.files=TRUE)
+```
+
+<br>
+
+<p align="justify">
+This function can be used in combination with <i>lsfeData()</i> (see <a href="https://github.com/LSFE/info/blob/master/example_3.md">here</a>).
+</p>
+
+
 
 <br>
 
