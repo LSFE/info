@@ -1,7 +1,7 @@
 ### Standardized storage of satellite data
 
 <p align="justify">
-One of the main issues in sharing data and tools between researchers has to do with the way we store and use data. Often, each researcher has its own data structure which makes it hard to apply a tool from another. As a consequence, adapting the work of someone else might be a bigger effort than writting a new function leading to an unnecessary replication of work. To avoid this, we developed <i>storeSat()</i> which creates a standized structure for satellite data and its corresponding metadata.
+One of the main issues in sharing data and tools between researchers has to do with the way we store and use data. Often, each researcher has its own data structure which makes it hard to apply a tool from another. As a consequence, adapting the work of someone else might be a bigger effort than writting a new function leading to an unecessary replication of work. To avoid this, we developed <i>storeSat()</i> which creates a standized structure for satellite data and its corresponding metadata.
 </p>
 
 <br>
@@ -10,10 +10,10 @@ One of the main issues in sharing data and tools between researchers has to do w
 <p align="justify">
 The data for every satellite sensor stored through <i>LSFE</i> will have a comparable structure (Figure 1). As describe in the disgram below, the storage functions will create a folder for the sensor within which two folders will be created:
   
-* SR - Folder where the surface reflectance data will be stored.
+* sr - Folder where the surface reflectance data will be stored.
 * infos - Folder where per-tile metadata for the downloaded acquisitions will be stored.
 
-Then, inside <i>SR</i>, the function will create a folder for each tile and store the corresponding acquisitions within it. This function can be used in combination with <a href="https://github.com/LSFE/info/blob/master/example_3.md">lsfeData()</a> which eases the use of other useful tools (see <a href="">metaQuery()</a> and <a href="">stackSat()</a>).
+Then, inside <i>sr</i>, the function will create a folder for each tile and store the corresponding acquisitions within it. This function can be used in combination with <a href="https://github.com/LSFE/info/blob/master/example_3.md">lsfeData()</a> which eases the use of other useful tools (see <a href="">metaQuery()</a> and <a href="">stackSat()</a>).
 </p>
 
 <br>
