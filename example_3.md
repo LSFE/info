@@ -29,7 +29,7 @@ Then, inside <i>SR</i>, the function will create a folder for each tile and stor
 <br>
 
 <p align="justify">
-At the moment, <i>storeSat()</i> allows for the storage of Landsat MODIS 8-day (<a href="https://lpdaac.usgs.gov/dataset_discovery/modis/modis_products_table/mod09a1_v006">09A1</a>) and 16-day ((<a href="https://lpdaac.usgs.gov/dataset_discovery/modis/modis_products_table/mod13q1_v006">13Q1</a>) NDVI composites. The function requires the user to specify an input path (where the downloaded data is stored) and the output path (where the data will be sorted). Then, the user needs to specify the target sensor. Additionally, the user can choose to remove the original files after competion setting the keyword <i>remove.files</i> to TRUE. Besides the overall data structuring, <i>storeSat()</i> also translates existing quality information when necessary providing a binary layer within each acquisition folder (Figure 2). 
+At the moment, <i>storeSat()</i> allows for the storage of Landsat MODIS 8-day (<a href="https://lpdaac.usgs.gov/dataset_discovery/modis/modis_products_table/mod09a1_v006">09A1</a>) and 16-day (<a href="https://lpdaac.usgs.gov/dataset_discovery/modis/modis_products_table/mod13q1_v006">13Q1</a>) NDVI composites. The function requires the user to specify an input path (where the downloaded data is stored) and the output path (where the data will be sorted). Then, the user needs to specify the target sensor. Additionally, the user can choose to remove the original files after competion setting the keyword <i>remove.files</i> to TRUE. Besides the overall data structuring, <i>storeSat()</i> also translates existing quality information when necessary providing a binary layer within each acquisition folder (Figure 2). 
 </p>
  
 <br>
