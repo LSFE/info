@@ -44,7 +44,13 @@ storeSat("path where hdf files are stored", "your output path", sensor="landsat"
 
 <br>
 
-<p align="justify">
+<p align="center">
+<img width="800" height="471" src="https://github.com/LSFE/info/blob/master/example-3_figure-2.jpg"></a>
+</p>
+
+<p align="center">
+<sub>Figure 2 - Example of converting Landsat QA into an FMask equivalent.</sub>
+</p>
 
 <br>
 
