@@ -29,7 +29,7 @@ Then, inside <i>SR</i>, the function will create a folder for each tile and stor
 <br>
 
 <p align="justify">
- At the moment, <i>storeSat()</i> allows for the storage of Landsat MODIS data (13Q1 and 09A1). The function requires the user to specify the an input path (where the downloaded data is stored) and the output path (where the data will be sorted). Then, the user needs to specify the target sensor. Additionally, the user can choose to remove the original files after competion setting the keyword <i>remove.files</i> to TRUE.
+ At the moment, <i>storeSat()</i> allows for the storage of Landsat MODIS data (<a href="https://lpdaac.usgs.gov/dataset_discovery/modis/modis_products_table/mod13q1_v006">13Q1</a> and <a href="https://lpdaac.usgs.gov/dataset_discovery/modis/modis_products_table/mod09a1_v006">09A1</a>). The function requires the user to specify the an input path (where the downloaded data is stored) and the output path (where the data will be sorted). Then, the user needs to specify the target sensor. Additionally, the user can choose to remove the original files after competion setting the keyword <i>remove.files</i> to TRUE.
 </p>
  
 <br>
@@ -45,10 +45,11 @@ storeSat("path where hdf files are stored", "your output path", sensor="landsat"
 <br>
 
 <p align="justify">
-This function can be used in combination with <i>lsfeData()</i> (see <a href="https://github.com/LSFE/info/blob/master/example_3.md">here</a>).
+  Besides the overall data structuring, <i>storeSat()</i> also translates existing quality information when necessary providing a binary layer within each acquisition folder. In the case of Landsat adn 
+  
+  
+  This function can be used in combination with <i>lsfeData()</i> (see <a href="https://github.com/LSFE/info/blob/master/example_3.md">here</a>).
 </p>
-
-
 
 <br>
 
