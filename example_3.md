@@ -39,7 +39,7 @@ At the moment, <i>storeSat()</i> allows for the storage of Landsat MODIS 8-day (
 storeSat("path where tar.gz files are stored", "your output path", sensor="landsat", remove.files=TRUE)
 
 # storage of modis data
-storeSat("path where hdf files are stored", "your output path", sensor="landsat", remove.files=TRUE)
+storeSat("path where hdf files are stored", "your output path", sensor="modis13q1", remove.files=TRUE)
 ```
 
 <br>
